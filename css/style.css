@@ -1,0 +1,125 @@
+@import url("https://fonts.googleapis.com/css?family=Raleway&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Playfair+Display&display=swap");
+
+body {
+  font-family: "Playfair Display";
+  background-color: white;
+}
+.container {
+  background-color: #ddebff;
+  border-radius: 5px;
+}
+/*--Header Section--*/
+header {
+  width: 1000px;
+  margin: 0 auto;
+  text-align: center;
+}
+header h1 {
+  color: #000000;
+  font-size: 30px;
+  font-family: "Raleway";
+  padding-top: 10px;
+}
+header p {
+  font-family: "Playfair Display";
+  letter-spacing: 1px;
+}
+/*--Image Section--*/
+.imagesection {
+  width: 58%;
+  background-color: white;
+  padding-top: 5px;
+  border-radius: 5px;
+  margin: 0 auto;
+}
+.imagesection img {
+  display: block;
+  margin: 0 auto;
+  border-radius: 0px 0px 5px 5px;
+}
+.imagesection p {
+  text-align: center;
+  font-family: "Playfair Display";
+  font-size: 1em;
+  letter-spacing: 1px;
+  padding: 20px 15px 20px 15px;
+  line-height: 25px;
+}
+
+/*--Article Section--*/
+article {
+  margin-top: 50px;
+  width: 58%;
+  margin: 0 auto;
+}
+article p {
+  font-family: "Raleway";
+  font-weight: 500;
+  letter-spacing: 1px;
+  line-height: 25px;
+  padding: 10px;
+}
+article h1 {
+  font-size: 1.2em;
+  font-family: "Raleway";
+  margin-top: 50px;
+  margin-bottom: 10px;
+  padding-left: 10px;
+  letter-spacing: 1px;
+}
+article ol {
+  font-family: "Raleway";
+  font-size: 16px;
+  font-weight: 500;
+  letter-spacing: 1px;
+  line-height: 25px;
+  padding-left: 23px;
+  padding-bottom: 10px;
+  padding-right: 10px;
+  padding-top: 10px;
+}
+
+/*--Qoute Section--*/
+.qoute {
+  text-align: center;
+  padding-bottom: 25px;
+  margin-bottom: 30px;
+  line-height: 25px;
+  letter-spacing: 1px;
+  width: 1000px;
+  margin: 0 auto;
+}
+.qoute a {
+  text-decoration: none;
+}
+.qoute p {
+  font-style: italic;
+}
+b {
+  font-weight: 600;
+  font-size: 1.2em;
+  padding-right: 15px;
+}
+/*--Small Screens--*/
+@media only screen and (max-width: 900px) {
+  .container {
+    width: 100%;
+  }
+  header {
+    width: 100%;
+  }
+  .imagesection {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+  }
+  img {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+  }
+  .qoute {
+    width: 100%;
+  }
+}
